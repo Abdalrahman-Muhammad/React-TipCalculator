@@ -1,5 +1,8 @@
+import TipCalculator from './components/TipCalculator';
+import './styles.css';
+
 const App = () => {
-  return <div>Hello World!</div>;
+  return <TipCalculator />;
 };
 
 export default App;

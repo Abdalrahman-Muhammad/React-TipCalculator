@@ -1,0 +1,63 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply basic styles to the container div */
+div {
+  max-width: 400px;
+  margin: 20px auto; /* Increased margin for better spacing */
+  padding: 20px;
+  border: 1px solid #e0e0e0; /* Slightly lighter border color */
+  border-radius: 8px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+/* Style the components within the container */
+label {
+  display: block;
+  margin-bottom: 8px; /* Slightly reduced margin for labels */
+  font-weight: bold;
+  color: #333333; /* Dark text color */
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px; /* Increased padding for better input appearance */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 15px; /* Increased margin for better spacing */
+}
+
+button {
+  padding: 12px 20px; /* Increased padding for better button appearance */
+  font-size: 16px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2); /* Slightly increased box shadow on focus */
+}
+
+/* Optional: Style the select on focus */
+select:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 10px rgba(102, 175, 233, 0.5);
+}
