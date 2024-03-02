@@ -9,7 +9,7 @@ const TipCalculator = () => {
   const [percentage1, setPercentage1] = useState(0);
   const [percentage2, setPercentage2] = useState(0);
 
-  const tip = (bill * (percentage1 + percentage2)) / 2;
+  const tip = bill * ((percentage1 + percentage2) / 2 / 100);
   const total = bill + tip;
   const handleBillChange = (e) => setBill(Number(e.target.value));
   const handleReset = () => {
