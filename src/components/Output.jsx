@@ -1,7 +1,7 @@
 const Output = ({ bill, tip, total }) => {
   return (
     <h3>
-      You pay {total} (${bill} +${tip} tip)
+      You pay ${total} (${bill} +${tip} tip)
     </h3>
   );
 };
