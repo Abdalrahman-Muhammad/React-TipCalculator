@@ -1,7 +1,7 @@
-const Output = ({ bill, average, total }) => {
+const Output = ({ bill, tip, total }) => {
   return (
     <h3>
-      You pay {total} (${bill} +${average} tip)
+      You pay {total} (${bill} +${tip} tip)
     </h3>
   );
 };
